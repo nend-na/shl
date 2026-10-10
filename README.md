@@ -5,7 +5,7 @@ Leaderboard metrics: **Pearson correlation** and **RMSE**.
 
 > **Status:** all notebooks were run on Kaggle (GPU T4). Scores below are the real public-leaderboard and cross-validation numbers.
 > Notebook outputs are deliberately **cleared** in this repo because they print transcript text derived from the competition data, which the rules forbid redistributing.
-> The executed notebooks (with all outputs, plots and the training RMSE) are the committed versions on Kaggle: **<ADD YOUR KAGGLE NOTEBOOK LINK HERE>**.
+> The executed notebooks (with all outputs, plots and the training RMSE) are the committed versions on Kaggle: **<https://www.kaggle.com/code/nandhanamnambiar222/notebookc0c01e1016/output?scriptVersionId=356755638>**.
 
 ## Approach (simple and explainable)
 
