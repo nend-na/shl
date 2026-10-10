@@ -1,0 +1,23 @@
+# Core numerics / ML
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3        # LinearRegression(positive=True), RidgeCV
+matplotlib>=3.7
+lightgbm>=4.0            # optional: models fall back to sklearn HistGradientBoosting if missing
+tqdm>=4.65
+
+# Audio
+librosa>=0.10
+soundfile>=0.12
+
+# Speech-to-text (runs locally; weights downloaded once, or supplied from a Kaggle Model / local folder)
+faster-whisper>=1.0
+
+# Text / audio encoders (all run locally)
+torch>=2.0
+transformers>=4.38
+sentence-transformers>=2.6
+
+# OPTIONAL: grammar checker. Needs Java + a one-off LanguageTool download; the pipeline works without it.
+language-tool-python>=2.8

@@ -1,0 +1,30 @@
+# --- Competition data must NOT be redistributed ---
+*.wav
+*.flac
+*.mp3
+*.csv
+*.parquet
+data/
+input/
+dataset/
+
+# --- Caches / derived artefacts (derived from the data -> keep private) ---
+cache/
+*.npy
+*.npz
+*.jsonl
+*.pkl
+*.joblib
+
+# --- Python / notebook noise ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.env
+.DS_Store
+
+# --- Model weights ---
+*.pt
+*.bin
+*.safetensors
